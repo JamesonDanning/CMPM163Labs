@@ -21,15 +21,44 @@
             document.body.appendChild(renderer.domElement);
             
             var geometry = new THREE.BoxGeometry();
-            var material = new THREE.MeshBasicMaterial( {color: facade} );
+
+            var material = new THREE.MeshBasicMaterial( {color: 0xfacade} );
+            var material2 = new THREE.MeshBasicMaterial( {color: 0xfcba03} );
+            var material3 = new THREE.MeshBasicMaterial( {color: 0xdeedee} );
+
      	    var cube = new THREE.Mesh(geometry, material);
+            var cube2 = new THREE.Mesh(geometry, material2);
+            var cube3 = new THREE.Mesh(geometry, material3);
                 scene.add(cube);
+                scene.add(cube2);
+                scene.add(cube3);
+
             camera.position.z = 5; //this moves the camera towards the viewer
+            cube.position.x -= 2;
+            cube2.position.y = 0;
+            cube3.position.x += 2;
+            
+            
             
 
             function animate() {
                 requestAnimationFrame(animate);
                 renderer.render(scene, camera);
+
+                cube.rotation.x += 0.01;
+                cube.rotation.y +=0.01;
+
+                var move = 0.05;
+                
+                cube2.rotation.y += 1;
+                cube2.position.y += move;
+                if(cube2.position.y >= 2) {
+                    cube2.position.y = -2;
+                }
+               
+               cube3.rotation.z -= 0.05;
+                
+               
             }
             animate();
 
