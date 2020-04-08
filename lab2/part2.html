@@ -20,13 +20,57 @@
             document.body.appendChild(renderer.domElement);
             camera.position.z = 200;
 
-            var light = new THREE.PointLight(0xffffff, 1, 1000);
+            var light = new THREE.PointLight(0xffffff, 2, 1000);
             light.position.set(50, 50, 50);
+            var light2 = new THREE.PointLight(0xff0000, 1, 1000);
+            light.position.set(-50, 30, 0);
+            
             scene.add(light);
+            scene.add(light2);
 
             var loader = new THREE.GLTFLoader();
-            loader.load('dog.glb', function (gltf) {
+            loader.load('dog.glb',  function (gltf) {
                 scene.add(gltf.scene);
+                gltf.scene.position.x = 50;
+                gltf.scene.position.y = -80;
+                gltf.scene.rotation.y = 4;
+                gltf.scene.position.z = 50;
+                gltf.scene.scale.x = 0.9;
+                gltf.scene.scale.y = 0.9;
+                gltf.scene.scale.z = 0.9;
+
+            }, function (xhr) {
+                console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+            }, function (error) {
+                console.error(error);
+            });
+
+            loader.load('cat.glb',  function (gltf) {
+                scene.add(gltf.scene);
+                gltf.scene.position.x = -50;
+                gltf.scene.position.y = 30;
+                gltf.scene.rotation.y = 0.7;
+                gltf.scene.scale.x = 5;
+                gltf.scene.scale.y = 5;
+                gltf.scene.scale.z = 5;
+
+
+            }, function (xhr) {
+                console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+            }, function (error) {
+                console.error(error);
+            });
+
+            loader.load('books.glb',  function (gltf) {
+                scene.add(gltf.scene);
+                gltf.scene.position.x = -130;
+                gltf.scene.position.y = -50;
+                gltf.scene.rotation.y = 4;
+                gltf.scene.scale.x = 2;
+                gltf.scene.scale.y = 2;
+                gltf.scene.scale.z = 2;
+
+
             }, function (xhr) {
                 console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
             }, function (error) {
