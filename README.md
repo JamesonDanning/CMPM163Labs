@@ -1,11 +1,11 @@
 # CMPM163Labs
 
 LAB 3:
-  video: https://drive.google.com/file/d/1QmAbsd8bA_K8N0Il5IcTnq81k8V-5Alo/view?usp=sharing
-  top cube- my shader that interpolates between pink and a bright green
-  left-my material with a wireframe, colored pink and is pink emissive as well
-  middle- The given cube material, grey with green specular
-  right- given shader, interpolates between blue/green
+  VIDEO: https://drive.google.com/file/d/1QmAbsd8bA_K8N0Il5IcTnq81k8V-5Alo/view?usp=sharing
+ TOP CUBE- my shader that interpolates between pink and a bright green
+  LEFT CUBE-my material with a wireframe, colored pink and is pink emissive as well
+  CENTER CUBE- The given cube material, grey with green specular
+  RIGHT CUBE- given shader, interpolates between blue/green
 
 
 
