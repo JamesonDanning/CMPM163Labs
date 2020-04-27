@@ -48,6 +48,31 @@
     	        }
             }
 
+			var geometry2, material2, mesh2;
+			function addTextureShaderCube2() {
+                //if(count == 2) {
+                    var uniforms = {texture1: { type: "t", value: 
+					THREE.ImageUtils.loadTexture("176.jpg")}};
+
+					//uniforms.texture1.wrapS = THREE.RepeatWrapping;
+					//uniforms.texture1.wrapT = THREE.RepeatWrapping;
+					//uniforms.texture1.repeat.set( 4, 4 );
+
+	
+      		    geometry2 = new THREE.BoxGeometry(1, 1, 1);
+      		    material2 =  new THREE.ShaderMaterial({
+            		uniforms: uniforms,
+      			    fragmentShader: fshader,
+              		vertexShader: vshader,
+      			    precision: "mediump"});
+
+      		    mesh2 = new THREE.Mesh(geometry2, material2);
+      		    mesh2.position.y = -2;
+                mesh2.position.x = 1;
+      		    scene.add(mesh2);
+    	        //}
+            }
+
 
 
 
@@ -83,6 +108,23 @@
       			fshader = data;
       			count += 1;
       			addTextureShaderCube(); // we will write this method
+      		},
+      		// onProgress callback
+      		function (xhr) {
+      			console.log((xhr.loaded/xhr.total * 100)+ '% loaded');
+      		},
+            // onError callback
+      		function (err) {
+      			console.error('An error happened');
+      		});
+
+			  loader.load('shaders/fragmentShader2.frag',
+      		// onLoad callback
+      		function (data) {
+      			console.log(data); // output the text to the console
+      			fshader = data;
+      			count += 1;
+      			addTextureShaderCube2(); // we will write this method
       		},
       		// onProgress callback
       		function (xhr) {
