@@ -4,6 +4,7 @@ TopMiddle- Cube using just texture A with built in texture functionality, from g
 TopRight- Cub using texture B and normal map with built in texture functionality.
 BottomLeft - Cube with texture C loaded with shaders, given code.
 Bottom Right - Cube with texture D tiled with shaders. I added a check to see if the coordinate values were over the middle and subtracted by that amount. I then doubled the uv coordinates to make it a 2x2 tiled texture.
+24-A: x = 7U, 24-B: 7-7V, 24-C: Light grey
 VIDEO:https://drive.google.com/file/d/1RvuSz9o2xQiWncCKeKBGSXwGVEGxRmmm/view?usp=sharing
 
 
