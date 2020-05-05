@@ -1,4 +1,10 @@
 # CMPM163Labs
+Lab5: 
+I did Part 1
+Video: https://drive.google.com/file/d/1UvFAdvwpC8dwahnBK2aQGKxZ2ov6NdW1/view?usp=sharing
+My mods: For the particles, I made them orange and look like sparks flying out of the kart's exhaust. I created 2 new materials. For the player material, I changed the albedo and normal map to that of rough stone. For the ground, I did the same but with a mossy grass texture and normal map. Lastly, I added a really pretty skybox, and I got the asset from the unity store.
+
+
 LAB 4: TopLeft- Cube using texture A and normal map with built in texture functionality. 
 TopMiddle- Cube using just texture A with built in texture functionality, from given code.
 TopRight- Cub using texture B and normal map with built in texture functionality.
