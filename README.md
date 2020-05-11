@@ -1,15 +1,18 @@
 # CMPM163Labs
 <h3>Lab6: Part 1</h3>
+
 ![](images/labss.png)
-<ul>
-  <li>point light</li>
-  <li>spot light</li>
-  <li>directional light</li>
-  <li>area light</li>
- </ul>
+<b>point light:</b> A lightsource that shines in all directions radiating from a single point. <b>Directional Light:</b> Acts like the sun, angle is what matters, not position, and effects all objects globally. <b>Spot light:</b> A lightsource that shines only in a specified cone angle and range. <b>Area light:<b/> Only for baked lighting, illuminates objects to one side of it's plane.
+![](images/comparison.png)
+<p>I made my material look like my water bottle by setting its albedo to a yellow color and setting its smoothness to low, and metallic to low.</p>
+  <p>I added a floor with a rock texture, and short walls with a plaster texture. I also added a nice sunset skybox.</p>
+  
 
 
-Lab5: 
+
+
+
+<h3>Lab5: </h3>
 I did Part 1
 Video: https://drive.google.com/file/d/1UvFAdvwpC8dwahnBK2aQGKxZ2ov6NdW1/view?usp=sharing
 My mods: For the particles, I made them orange and look like sparks flying out of the kart's exhaust. I created 2 new materials. For the player material, I changed the albedo and normal map to that of rough stone. For the ground, I did the same but with a mossy grass texture and normal map. Lastly, I added a really pretty skybox, and I got the asset from the unity store.
