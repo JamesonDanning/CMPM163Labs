@@ -1,4 +1,14 @@
 # CMPM163Labs
+<h3>Lab6: Part 1</h3>
+![](images/labss.png)
+<ul>
+  <li>point light</li>
+  <li>spot light</li>
+  <li>directional light</li>
+  <li>area light</li>
+ </ul>
+
+
 Lab5: 
 I did Part 1
 Video: https://drive.google.com/file/d/1UvFAdvwpC8dwahnBK2aQGKxZ2ov6NdW1/view?usp=sharing
