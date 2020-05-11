@@ -2,7 +2,7 @@
 <h3>Lab6: Part 1</h3>
 
 ![](images/labss.png)
-<b>point light:</b> A lightsource that shines in all directions radiating from a single point. <b>Directional Light:</b> Acts like the sun, angle is what matters, not position, and effects all objects globally. <b>Spot light:</b> A lightsource that shines only in a specified cone angle and range. <b>Area light:<b/> Only for baked lighting, illuminates objects to one side of it's plane.
+<b>point light:</b> A lightsource that shines in all directions radiating from a single point. <b>Directional Light:</b> Acts like the sun, angle is what matters, not position, and effects all objects globally. <b>Spot light:</b> A lightsource that shines only in a specified cone angle and range. <b>Area light:</b> Only for baked lighting, illuminates objects to one side of it's plane.
 ![](images/comparison.png)
 <p>I made my material look like my water bottle by setting its albedo to a yellow color and setting its smoothness to low, and metallic to low.</p>
   <p>I added a floor with a rock texture, and short walls with a plaster texture. I also added a nice sunset skybox.</p>
