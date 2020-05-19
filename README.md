@@ -1,4 +1,9 @@
 # CMPM163Labs
+<h3>Lab7: Part 1</h3>
+<b>Video:</b> https://drive.google.com/file/d/1YTTmpAQEJ8ZklEMR-Tl3dk1oDM5j6ZMN/view?usp=sharing
+<p>I made my scene by using the shader from part 1 (with some modifications) to generate mountain peaks from a plane. I changed its color and gave it a normal map to resemble desert dunes. Next, I made the water shader. I had to follow a different tutorial because the one given had nothing but problems, but I still did it with shader code instead of the graph. I added a terrain and sculpted a little cutout for the water. I dropped the water into the little cutout, and positioned everything nicely. I added some random dessert plant assets I found to tie it all together. Also, I added a sky and fog volume just for a little better look, plus a directional light</p>
+<p> My partner was not done at my time of submission, and we did not help each other </p>
+
 <h3>Lab6: Part 1</h3>
 
 ![](images/labss.png)
