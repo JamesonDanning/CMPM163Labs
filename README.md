@@ -1,5 +1,6 @@
 # CMPM163Labs
 <h3>Lab8: Part 1</h3>
+<b> I made this in a new scene titled "lab 9" in my lab 6 project folder</b>
 
 ![](images/district9.jpg)
 ![](images/slums.png)
