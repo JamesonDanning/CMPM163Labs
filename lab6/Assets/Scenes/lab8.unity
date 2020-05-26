@@ -252,7 +252,7 @@ MonoBehaviour:
   - {fileID: 5670291270169425824, guid: 68247db3106e5cc4fa678a7e678cf3f3, type: 3}
   mapWidth: 35
   mapHeight: 35
-  buildingFootprint: 4
+  buildingFootprint: 3
 --- !u!4 &822965718
 Transform:
   m_ObjectHideFlags: 0
