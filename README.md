@@ -1,4 +1,12 @@
 # CMPM163Labs
+<h3>Lab8: Part 1</h3>
+
+![](images/district9.jpg)
+![](images/slums.png)
+
+<p>I used the slums from the movie district 9 as inspiration. The homes are very tightly packed and made out of scraps and trash. I found a unity package featuring a few of these types of buildings, so I used that. The challenging part, and what I did extra, was change the rotation values of each building, matching the style in the image. The buildings are not perfectly straight. I did this by setting a random int at the start of each loop, between -10 and 15. In the instantiate code, instead of Quaternion.Identity, I used Quaternion.Euler(0,randomInt,0). Additionally, I added a dirt texture to the ground.</p>
+<p> As of now, I cannot find my partner, Haoran Chang, on discord. Their name doesn't show up, and I have not been messaged either</p>
+
 <h3>Lab7: Part 1</h3>
 <b>Video:</b> https://drive.google.com/file/d/1YTTmpAQEJ8ZklEMR-Tl3dk1oDM5j6ZMN/view?usp=sharing
 <p>I made my scene by using the shader from part 1 (with some modifications) to generate mountain peaks from a plane. I changed its color and gave it a normal map to resemble desert dunes. Next, I made the water shader. I had to follow a different tutorial because the one given had nothing but problems, but I still did it with shader code instead of the graph. I added a terrain and sculpted a little cutout for the water. I dropped the water into the little cutout, and positioned everything nicely. I added some random dessert plant assets I found to tie it all together. Also, I added a sky and fog volume just for a little better look, plus a directional light</p>
